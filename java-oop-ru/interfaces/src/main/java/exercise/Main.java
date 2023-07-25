@@ -13,6 +13,10 @@ public class Main {
                 new Flat(80, 10, 2),
                 new Cottage(150, 3)
         ));
+
+        Home Apar = new Flat(55,5,15);
         System.out.println(buildApartmentsList(apartments, 3));
+        System.out.println(Apar);
+        System.out.println("Hello");
     }
 }
