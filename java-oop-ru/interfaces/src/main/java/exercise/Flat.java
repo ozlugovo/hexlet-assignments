@@ -13,22 +13,27 @@ public class Flat implements Home {
     }
 
     public double getLivingArea() {
+
         return area;
     }
 
     public double getBalconyArea() {
+
         return balconyArea;
     }
 
     public int getFloor() {
+
         return floor;
     }
     @Override
     public double getArea() {
-       return getLivingArea() + getBalconyArea();
+
+        return getLivingArea() + getBalconyArea();
     }
 
     public String toString() {
+
         return "Квартира площадью " + getArea() + " метров на " + getFloor()+ " этаже";
     }
 
